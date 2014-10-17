@@ -17,13 +17,15 @@ if(!defined('BASE_URL')) {
 
 <div class="row">
 	<div class="large-6 columns text-center">
-		<img src="http://placehold.it/250x450" class="th">
-		<h2>Superior</h2>
-		<h4>Learn More</h4>
+		<img src="images/250x194-del-red-face-shadow-menu.png" >
+		<h2>Deluxe</h2>
+		<a href="index.php?p=superior" class="button [radius round]">Learn More</a>
+
 	</div>
 	<div class="large-6 columns text-center">
-		<img src="http://placehold.it/250x450" class="th">
-		<h2>Deluxe</h2>
-		<h4 class="btn"><a href="index.php?p=deluxe">Learn More</a></h4>
+		<img src="images/250x194-sup-red-face-shadow-menu.png" >
+		<h2>Superior</h2>
+		<a href="index.php?p=superior" class="button [radius round]">Learn More</a>
+
 	</div>
 </div>

@@ -4,6 +4,10 @@
 	background: $blue-main;
 }
 
+.blue-background-dark {
+	background: $blue-darker;
+}
+
 .blue-lt-background {
 	background: $blue-lighter;
 }
@@ -12,29 +16,96 @@
 	background: $blue-lightest;
 }
 
+.red-background {
+	background: $red-main;
+}
+
+.red-dark-background {
+	background: $red-darkest;
+}
+
 .row {
 	margin-bottom: rem-calc(20);
 }
 
 .page-titles {
-	@extend .blue-lt-2-background;
+	@extend .red-dark-background;
 	padding: 1px 0 0;
 	margin-bottom: rem-calc(30); 
 	text-transform: uppercase;
+	h2 {
+		color: white;	
+	}
+	
 }
 
 // Main page
 
-.slider {
-	min-height: 300px;
+.logo-header {
+	background: $blue-lightest;
 	padding: 20px 0;
+	.row {
+		margin-bottom: 0;
+	}
+	h1 {
+		font-size: 30px;
+		color: white;
+		text-transform: uppercase;
+	}
 }
 
+.slider {
+	background: lighten($blue-lighter, 40%);
+	padding: 20px 0 5px 0;
+	
+}
+
+// Individual slide styles
+
+#texas-edition {
+	clear: both;
+	padding-left: rem-calc(70);
+	#scooter-sup {
+		float: left;
+		width: 18%;
+		margin-left: -20px;
+	}
+	#scooter-del {
+		float: left;
+		width: 20%;
+		padding: rem-calc(10);
+	}
+	#texas-logo {
+		float: right;
+		width: 50%;
+
+		
+	}
+	a {
+		float: right;
+		position: relative;
+		left: -18%;
+		clear: right;
+		background: $red-main;
+		margin-top: 8px;
+		padding: 10px 35px;
+	}
+}
 .feature {
 	padding: 20px 0;
 	img {
 		@include border-radius(100px);
 		margin-bottom: 10px;
+		background-color: $blue-lightest;
+	}
+}
+
+.seo-text {
+	@extend .red-background;
+	color: white;
+	padding-top: 15px;
+	h3 {
+		color: white;
 	}
 }
 
@@ -43,14 +114,60 @@
 	margin-bottom: 20px; 
 }
 
-footer {
-	padding: 30px 0;
+.scooter-row {
+	a.button {
+		width: 100%;
+		padding: 5px;
+	}
+}
+
+.sub-footer {
+	@extend .blue-background-dark;
+	padding: 20px 0 0 0;
+	.row {
+		margin-bottom: 0;
+	}
+	h4 {
+		color: white;
+	}
 	p {
+		color: white;
 		margin: 0;
 		padding: 0;
 	}
 }
+footer {
+	padding: 30px 0 0 0;
+	
+}
 
+
+.side-nav.coaches {
+	padding: 0;
+	li a{
+		padding: 0;
+	}
+}
+
+p.about-us {
+	font-size: 14px;
+}
+
+// Design 
+
+.design {
+	img {
+		width: 100%;
+	}
+}
+
+// Model Pages 
+
+.image-grid {
+	img {
+		margin-bottom: 20px;
+	}
+}
 // Tables
 
 table.scooter-specs {
@@ -58,5 +175,25 @@ table.scooter-specs {
 		width: 40%;
 		background: $blue-main;
 		color: white;
+	}
+}
+
+// Pricing Tables
+
+.pricing-table {
+	.title {
+		background: $red-darker;
+		padding: 10px 0 5px; 
+		h2 {
+			color: white;
+			text-transform: uppercase;
+		}
+	}
+	.sale {
+		color: $red-main;
+	}
+	.button {
+		font-size: 20px;
+		text-transform: uppercase;
 	}
 }

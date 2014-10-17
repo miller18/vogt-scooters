@@ -1,14 +1,11 @@
 <?php # Script 2.6 - about.inc.php
-
 if(!defined('BASE_URL')) {
-    require('../includes/config.inc.php');
-    $url = BASE_URL . 'index.php?p=superior';
-    header("Location: $url");
-    exit;
+require('../includes/config.inc.php');
+$url = BASE_URL . 'index.php?p=superior';
+header("Location: $url");
+exit;
 } //End if defined() IF.
 ?>
-
-
 <div class="page-titles">
 	<div class="row">
 		<div class="large-12 columns">
@@ -16,37 +13,36 @@ if(!defined('BASE_URL')) {
 		</div>
 	</div>
 </div>
-
 <div class="row">
 	<div class="large-6 columns">
 		<p>
-This isn’t a mobility scooter; it’s a luxury riding adventure! Attention-grabbing profile riders love		</p>
+		This isn’t a mobility scooter; it’s a luxury riding adventure! Attention-grabbing profile riders love		</p>
 		<p>
-Our largest and most comfortable model with plenty of legroom. Powerful battery lets you drive up to 35 miles on a single charge, and large tubeless tires offer a smooth ride!		</p>
-		<div class="row">
-			<div class="small-6 columns">
-				<img src="http://placehold.it/300x200" class="th">
+		Our largest and most comfortable model with plenty of legroom. Powerful battery lets you drive up to 35 miles on a single charge, and large tubeless tires offer a smooth ride!		</p>
+		<div class="image-grid">
+			<div class="row">
+				<div class="large-6 medium-12 small-6 columns">
+					<img src="images/450x450-sup-7.png" class="th">
+				</div>
+				<div class="large-6 medium-12 small-6 columns">
+					<img src="images/450x450-sup-6.png" class="th">
+				</div>
+				
+				<div class="large-6 medium-12 small-6 columns">
+					<img src="images/450x450-sup-9.png" class="th">
+				</div>
+				<div class="large-6 medium-12 small-6 columns">
+					<img src="images/450x450-sup-12.png" class="th">
+				</div>
 			</div>
-			<div class="small-6 columns">
-				<img src="http://placehold.it/300x200" class="th">
-			</div>	
 		</div>
-		<div class="row">
-			<div class="small-6 columns">
-				<img src="http://placehold.it/300x200" class="th">
-			</div>
-			<div class="small-6 columns">
-				<img src="http://placehold.it/300x200" class="th">
-			</div>	
-		</div>
-		<div class="row">
-			<div class="small-6 columns">
-				<img src="http://placehold.it/300x200" class="th">
-			</div>
-			<div class="small-6 columns">
-				<img src="http://placehold.it/300x200" class="th">
-			</div>	
-		</div>
+		<ul class="pricing-table">
+			<li class="title"><h2>Superior</h2></li>
+			<li class="price"><small>MSRP:</small> $4,250</li>
+			<li class="price discount"><small>Vogt Discount:</small> 10%</li>
+			<li class="price sale"><small>Vogt Sale Price:</small> $3,500</li>
+			<li class="cta-button"><a class="button expand round alert" href="index.php?p=contact">Reserve Yours Now</a></li>
+		</ul>
 		
 	</div>
 	<div class="large-6 columns">
@@ -119,7 +115,6 @@ Our largest and most comfortable model with plenty of legroom. Powerful battery
 				<th scope="row">Battery Power</th>
 				<td>850 W (1.14 hp)</td>
 			</tr>
-
 			<tr>
 				<th scope="row" colspan="2" class="text-center">Battery Charger</th>
 			</tr>
@@ -138,7 +133,7 @@ Our largest and most comfortable model with plenty of legroom. Powerful battery
 			<tr>
 				<th scope="row" colspan="2" class="text-center">Drive System</th>
 			</tr>
-			<tr>	
+			<tr>
 				<td colspan="2">Rear-wheel drive system, sealed transaxle direct drive, 24-vold DC brush motor</td>
 			</tr>
 			<tr>
@@ -162,15 +157,15 @@ Our largest and most comfortable model with plenty of legroom. Powerful battery
 			</tr>
 			<tr>
 				<th scope="row" colspan="2" class="text-center">Dual Braking System</th>
-				</tr>
-				<tr>
+			</tr>
+			<tr>
 				<th>Primary</th>
 				<td>Motor electromagnetic brake</td>
 			</tr>
 			<th>Secondary</th>
-				<td>Hand brake</td>
-			</tr>
-			
-		</table>
-	</div>
+			<td>Hand brake</td>
+		</tr>
+		
+	</table>
+</div>
 </div>

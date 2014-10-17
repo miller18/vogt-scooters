@@ -52,7 +52,13 @@ switch($p)
 
         $page = 'superior.inc.php';
         $page_title = 'Superior Model';
-        break;               
+        break;
+
+    case 'texas':
+
+        $page = 'texas-edition.inc.php';
+        $page_title = 'Special Texas Edition';
+        break;                   
 
     case 'contact':
 

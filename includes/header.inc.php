@@ -16,6 +16,18 @@ if(!isset($page_title)) $page_title = 'Default Page Title';
     
   </head>
   <body>
+  <div class="logo-header">
+    <div class="row">
+      <div class="large-3 medium-4 columns">
+        <img src="images/vogt-logo-classic-4.png" alt="Vogt RV Centers">
+      </div>
+      <div class="large-9 medium-8 columns hide-for-small-only">
+        <h4>Welcome to Vogt Country</h4>
+        <h1>Your Texas Home For Stars N Stripes Scooters</h1>
+
+      </div>
+    </div>
+  </div>
     <div class="sticky contain-to-grid">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
