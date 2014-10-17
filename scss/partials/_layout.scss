@@ -1,0 +1,27 @@
+.blue-background {
+	background: $blue-main;
+}
+
+.blue-lt-background {
+	background: $blue-lightest;
+}
+
+// Main page
+
+.slider {
+	min-height: 300px;
+	padding: 20px 0;
+}
+
+.feature {
+	padding: 20px 0;
+	img {
+		@include border-radius(100px);
+		margin-bottom: 10px;
+	}
+}
+
+.sub-feature {
+	margin-top: 20px;
+	margin-bottom: 20px; 
+}
