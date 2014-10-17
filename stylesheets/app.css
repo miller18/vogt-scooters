@@ -6299,7 +6299,7 @@ table tr td {
 }
 /* line 117, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
-  background: #f9f9f9;
+  background: #9eccff;
 }
 /* line 125, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table thead tr th,
@@ -9067,27 +9067,44 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 1, ../scss/partials/_layout.scss */
+/* line 3, ../scss/partials/_layout.scss */
 .blue-background {
   background: #00336b;
 }
 
-/* line 5, ../scss/partials/_layout.scss */
+/* line 7, ../scss/partials/_layout.scss */
 .blue-lt-background {
-  background: #5180b5;
+  background: #2d6db5;
 }
 
 /* line 11, ../scss/partials/_layout.scss */
+.blue-lt-2-background, .page-titles {
+  background: #5180b5;
+}
+
+/* line 15, ../scss/partials/_layout.scss */
+.row {
+  margin-bottom: 1.25rem;
+}
+
+/* line 19, ../scss/partials/_layout.scss */
+.page-titles {
+  padding: 1px 0 0;
+  margin-bottom: 1.875rem;
+  text-transform: uppercase;
+}
+
+/* line 28, ../scss/partials/_layout.scss */
 .slider {
   min-height: 300px;
   padding: 20px 0;
 }
 
-/* line 16, ../scss/partials/_layout.scss */
+/* line 33, ../scss/partials/_layout.scss */
 .feature {
   padding: 20px 0;
 }
-/* line 18, ../scss/partials/_layout.scss */
+/* line 35, ../scss/partials/_layout.scss */
 .feature img {
   -webkit-border-radius: 100px;
   border-radius: 100px;
@@ -9096,8 +9113,25 @@ th.hide-for-touch {
   margin-bottom: 10px;
 }
 
-/* line 24, ../scss/partials/_layout.scss */
+/* line 41, ../scss/partials/_layout.scss */
 .sub-feature {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+/* line 46, ../scss/partials/_layout.scss */
+footer {
+  padding: 30px 0;
+}
+/* line 48, ../scss/partials/_layout.scss */
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 57, ../scss/partials/_layout.scss */
+table.scooter-specs th {
+  width: 40%;
+  background: #00336b;
+  color: white;
 }

@@ -1,0 +1,9 @@
+# Script 2.7 - .htaccess
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /php_testing/chapter-2/
+
+    RewriteRule ^(about|contact|this|that|search)/?$ index.php?p=$1
+
+</IfModule>
