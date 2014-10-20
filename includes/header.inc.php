@@ -2,7 +2,7 @@
 
 // Check for a $page_title value:
 
-if(!isset($page_title)) $page_title = 'Default Page Title';
+if(!isset($page_title)) $page_title = 'Vogt Scooters of Texas | Stars N Stripes Scooters | Vogt RV Centers | Fort Worth, TX';
 
 ?>
 <!doctype html>
@@ -10,10 +10,12 @@ if(!isset($page_title)) $page_title = 'Default Page Title';
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vogt Scooters</title>
+    <title><?php echo $page_title; ?></title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
-    
+      <script type="text/javascript"
+              src="http://maps.google.com/maps/api/js?sensor=false">
+      </script>
   </head>
   <body>
   <div class="logo-header">

@@ -49,7 +49,7 @@ exit;
 <div class="row ">
   <div class="medium-4 columns text-center feature">
     <img src="images/300x300-battery-180x180.png" class="th">
-    <h3>Yuasa Batter</h3>
+    <h3>Yuasa Battery</h3>
     <p>Since 1979, Yuasa Battery Inc., has been the largest distributor of batteries to American brands for motorcycles, snowmobiles, scooters, all-terrain vehicles and personal watercrafts.</p>
   </div>
   <div class="medium-4 columns text-center feature">

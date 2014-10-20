@@ -26,7 +26,7 @@ if(!defined('BASE_URL')) {
 	  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 	  </li>
 	  <li>
-	  	<img src="images/suspension_400x300.png" width="100%" class="th" />
+	  	<img src="images/400-300-battery.png" width="100%" class="th" />
 	  	<h4>Robust</h4>
 	  	<h6>Batteries</h6>
 	  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

@@ -24,18 +24,16 @@ exit;
 
 <div class="row">
 	<div class="large-4 columns">
-		<img src="http://placehold.it/450x250" width="100%" class="th">
+		<img src="images/vogt-logo-classic-4.png" width="100%">
 	</div>
 	<div class="large-8 columns">
 		<h3>Vogt RV Center</h3>
 
 		<!-- TODO -->
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Vogt RV is one of the top 100 privately owned companies in Tarrant County and Vogt RV
+            has been one of the Texas leading motorhome dealers for over thirty years. Our huge list of
+            manufacturers is like a who's who in RV design, comfort, safety, and quality.
+            Come by and see the beautiful models by Jayco, Tiffin, Airstream, Crossroads, Leisure Travel, Cruiser RV, Midwest Automotive, and Livin Lite.</p>
 		<!-- TODO -->
 		
 	</div>
